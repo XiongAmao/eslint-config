@@ -1,0 +1,17 @@
+{
+  "name": "@xiongamao/eslint-config-basic",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

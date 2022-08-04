@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.24.1",
+    "eslint": "^8.21.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "name": "eslint-config",
+  "workspaces": [
+    "packages/*"
+  ]
+}
