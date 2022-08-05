@@ -1,13 +1,13 @@
 {
   "name": "@xiongamao/eslint-config-ts",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
   "main": "index.js",
-  "scripts": {
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Zichao Xiong <onycat@live.cn>",
   "license": "MIT",
+  "description": "",
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   }

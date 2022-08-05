@@ -1,17 +1,23 @@
 {
   "name": "@xiongamao/eslint-config-basic",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
   "main": "index.js",
-  "scripts": {
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Zichao Xiong <onycat@live.cn>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": ">= 3"
-  },
+  "description": "",
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
   }
 }
