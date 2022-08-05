@@ -13,6 +13,11 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     semi: ['error', 'never'],
-    indent: 'off'
+    indent: 'off',
+    quotes: [
+      'error',
+      'single',
+      { avoidEscape: false, allowTemplateLiterals: true }
+    ]
   }
 }

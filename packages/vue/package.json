@@ -10,5 +10,16 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "@xiongamao/eslint-config-basic": "workspace:*",
+    "eslint-plugin-vue": "^9.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "typescript": "^4.7.4"
   }
 }
