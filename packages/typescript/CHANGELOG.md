@@ -1,5 +1,11 @@
 # @xiongamao/eslint-config-ts
 
+## 0.2.1
+
+### Patch Changes
+
+- config ts/no-use-before-define
+
 ## 0.2.0
 
 ### Minor Changes
