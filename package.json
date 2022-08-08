@@ -2,7 +2,11 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "change": "pnpm changeset",
+    "version": "pnpm changeset version",
+    "publish": "pnpm changeset publish",
+    "release": "pnpm run version && pnpm run publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.24.1",
