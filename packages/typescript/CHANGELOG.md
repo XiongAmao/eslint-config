@@ -1,5 +1,16 @@
 # @xiongamao/eslint-config-ts
 
+## 0.3.0
+
+### Minor Changes
+
+- 41dbb55: chore: bump up deps
+
+### Patch Changes
+
+- Updated dependencies [41dbb55]
+  - @xiongamao/eslint-config-basic@0.2.0
+
 ## 0.2.1
 
 ### Patch Changes
