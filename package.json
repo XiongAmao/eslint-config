@@ -9,15 +9,15 @@
     "release": "pnpm run version && pnpm run publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.24.1",
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
+    "@changesets/cli": "^2.26.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
     "@xiongamao/eslint-config-basic": "workspace:0.1.0",
-    "commitizen": "^4.2.5",
-    "cz-git": "^1.3.10",
-    "eslint": "^8.21.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3"
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.4.1",
+    "eslint": "^8.33.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
   },
   "name": "eslint-config",
   "workspaces": [
