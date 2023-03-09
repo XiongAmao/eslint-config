@@ -1,4 +1,3 @@
-# 整个流程的名字
 name: Release
 
 on:
@@ -13,7 +12,6 @@ defaults:
 jobs:
   changelog:
     name: Changelog PR or Release
-    if: ${{ github.repository_owner == 'XiongAmao' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -36,9 +34,11 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          publish: pnpm run publish
           version: pnpm run version
           commit: '[ci] release'
           title: '[ci] release'
+          createGithubReleases: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

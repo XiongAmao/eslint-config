@@ -4,7 +4,7 @@
     "prepare": "husky install",
     "commit": "cz",
     "change": "pnpm changeset",
-    "version": "pnpm changeset version",
+    "version": "pnpm changeset version && pnpm install",
     "publish": "pnpm changeset publish",
     "release": "pnpm run version && pnpm run publish"
   },
