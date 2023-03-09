@@ -12,6 +12,7 @@ defaults:
 jobs:
   changelog:
     name: Changelog PR or Release
+    if: ${{ github.repository_owner == 'XiongAmao' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -34,8 +35,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: pnpm run publish
           version: pnpm run version
+          publish: pnpm run publish
           commit: 'ci: release'
           title: 'ci: release'
           createGithubReleases: false
