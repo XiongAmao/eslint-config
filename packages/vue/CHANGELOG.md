@@ -1,5 +1,16 @@
 # @xiongamao/eslint-config-vue
 
+## 0.3.0
+
+### Minor Changes
+
+- a89b51d: bump up dependencies
+
+### Patch Changes
+
+- Updated dependencies [a89b51d]
+  - @xiongamao/eslint-config-basic@0.3.0
+
 ## 0.2.0
 
 ### Minor Changes
