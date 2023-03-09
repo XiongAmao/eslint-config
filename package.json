@@ -10,14 +10,14 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "@xiongamao/eslint-config-basic": "workspace:*",
     "commitizen": "^4.3.0",
-    "cz-git": "^1.4.1",
-    "eslint": "^8.33.0",
+    "cz-git": "^1.5.3",
+    "eslint": "^8.35.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.0"
+    "lint-staged": "^13.1.2"
   },
   "name": "eslint-config",
   "workspaces": [
